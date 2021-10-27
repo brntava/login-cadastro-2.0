@@ -1,0 +1,111 @@
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    background-color: 	#F0FFFF;
+    margin: 0 auto;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+#subtitulo, #subtitulo2{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 3px grey;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-color: #FFFAFA;
+    height: 310px;
+}
+
+.container-1{
+    background-color: #F0FFFF;
+    width: 25%;
+    height: 300px;
+    float: right ;
+    border: solid 1px grey;
+    box-shadow: 2px 2px 2px grey;
+    margin-right: 50px
+}
+
+.container-2{
+    background-color: #F0FFFF;
+    width: 25%;
+    height: 300px;
+    float: right;
+    border: solid 1px grey;
+    box-shadow: 2px 2px 2px grey;;
+    margin-left: 50px;
+}
+
+fieldset.campo2{
+    font-weight: bold;
+    border: 0;
+    margin-right: 80px;
+}
+fieldset.campo{
+    font-weight: bold;
+    border: 0;
+    margin-right: 70px;
+}
+
+.grupo{
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.grupo2{
+    height: 300px;
+    margin-left: 100px ;
+    margin-top: 40px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 2px;
+    float: right;
+}
+
+.botao{
+    margin-left: 60px;
+    margin-top:  50px;
+    width: 90px;
+    height: 25px;
+    border: 1px solid grey;
+    color: white;
+    background-color: #4CAF50;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao2{
+    margin-left: 85px;
+    margin-top:  20px;
+    width: 90px;
+    height: 25px;
+    border: 1px solid grey;
+    color: white;
+    background-color: #4CAF50;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover, .botao2:hover{
+    background: #A52A2A;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
